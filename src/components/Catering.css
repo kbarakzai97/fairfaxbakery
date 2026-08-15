@@ -1,0 +1,99 @@
+.catering {
+  padding: 3rem 4rem 5rem;
+  min-height: calc(100vh - 80px);
+  font-family: 'Poppins', sans-serif;
+}
+
+.catering-heading {
+  color: purple;
+  font-weight: 400;
+  font-size: 2.5rem;
+  letter-spacing: 0.02em;
+  margin: 0 0 4rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.catering-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 2.5rem;
+  column-gap: 3rem;
+  width: 100%;
+}
+
+.catering-item {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: left;
+  border-top: 2px solid purple;
+  border-bottom: 2px solid purple;
+  padding: 1.5rem 0;
+}
+
+.catering-item-image {
+  width: 160px;
+  height: 120px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.catering-item-copy h2 {
+  font-weight: 400;
+  font-size: 1.7rem;
+  margin: 0 0 0.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.catering-item-copy p {
+  font-size: 1.15rem;
+  font-style: italic;
+  line-height: 1.6;
+  color: #444;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.catering-item-price {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  color: purple;
+  font-family: 'Poppins', sans-serif;
+}
+
+.catering-item-copy p.catering-item-price {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 900px) {
+  .catering-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .catering-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .catering-item-image {
+    width: 100%;
+    height: 180px;
+  }
+}
+
+@media (max-width: 600px) {
+  .catering {
+    padding: 2rem 1.5rem 3rem;
+  }
+
+  .catering-heading {
+    font-size: 1.75rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .catering-grid {
+    row-gap: 2rem;
+  }
+}
