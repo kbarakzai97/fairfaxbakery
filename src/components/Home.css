@@ -170,7 +170,7 @@
   position: relative;
   background-color: #f1e9f7;
   border-radius: 12px;
-  padding: 3rem 2rem 2rem;
+  padding: 3rem 2rem 2.5rem;
   flex: 1;
   text-align: center;
   display: flex;
@@ -190,14 +190,19 @@
 .review-card p {
   margin: 0 0 1rem;
   line-height: 1.6;
-  font-family: 'Times New Roman', Times, serif;
   font-size: 1.1rem;
   padding-top: 2rem;
 }
 
 .review-author {
+  position: absolute;
+  bottom: 0.75rem;
+  right: 1.5rem;
+  margin: 0;
   font-style: normal;
   font-weight: 600;
+  color: purple;
+  padding-top: 1rem;
 }
 
 .reviews-arrow {
