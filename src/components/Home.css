@@ -82,3 +82,276 @@
     padding: 0.75rem 1.5rem;
   }
 }
+
+.gallery {
+  padding: 4rem 3rem;
+  text-align: center;
+}
+
+.gallery h2 {
+  font-size: 5.5rem;
+  font-weight: 400;
+  margin: 0 0 2.5rem;
+  color: purple;
+}
+
+.gallery-heading {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4.5rem;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 450px;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.gallery-item {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.gallery-item-tall {
+  grid-row: span 2;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    padding: 3rem 1.5rem;
+  }
+
+  .gallery h2,
+  .gallery-heading {
+    font-size: 2.5rem;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 90px;
+  }
+}
+
+.reviews {
+  position: relative;
+  padding: 4rem 5rem;
+  text-align: center;
+}
+
+.reviews-heading {
+  font-size: 3.25rem;
+  font-weight: 400;
+  margin: 0 0 2.5rem;
+}
+
+.reviews-heading-accent {
+  font-family: 'Dancing Script', cursive;
+  font-style: italic;
+  color: purple;
+  font-size: 1.3em;
+}
+
+.reviews-track {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2rem;
+}
+
+.review-card {
+  position: relative;
+  background-color: #f1e9f7;
+  border-radius: 12px;
+  padding: 3rem 2rem 2rem;
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.review-stars {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  color: #d4af00;
+  font-size: 2rem;
+  letter-spacing: 0.15rem;
+}
+
+.review-card p {
+  margin: 0 0 1rem;
+  line-height: 1.6;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.1rem;
+  padding-top: 2rem;
+}
+
+.review-author {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.reviews-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #2b0133;
+  color: #fff;
+  border: none;
+  width: 48px;
+  height: 90px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.reviews-arrow-prev {
+  left: 0;
+}
+
+.reviews-arrow-next {
+  right: 0;
+}
+
+.reviews-arrow:hover {
+  background-color: #430f5c;
+}
+
+@media (max-width: 768px) {
+  .reviews {
+    padding: 3rem 1.5rem;
+  }
+
+  .reviews-heading {
+    font-size: 1.6rem;
+  }
+
+  .reviews-arrow {
+    width: 32px;
+    height: 64px;
+  }
+
+  .reviews-track {
+    flex-direction: column;
+  }
+
+  .review-card {
+    padding: 2.5rem 1.5rem 1.5rem;
+  }
+
+  .review-stars {
+    font-size: 1.4rem;
+  }
+
+  .review-card p {
+    font-size: 1rem;
+  }
+}
+
+.location {
+  padding: 4rem 3rem;
+  text-align: center;
+}
+
+.location-heading {
+  font-size: 2.75rem;
+  font-weight: 400;
+  margin: 0 0 2.5rem;
+}
+
+.location-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.location-map {
+  width: 100%;
+  flex: 0.7;
+  height: 300px;
+  border: 0;
+  border-radius: 8px;
+}
+
+.location-details {
+  flex: 1.3;
+
+}
+
+.location-address {
+  color: purple;
+  font-size: 2rem;
+  line-height: 1.6;
+  margin: 0 0 1.5rem;
+}
+
+.location-hours {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .location {
+    padding: 3rem 1.5rem;
+  }
+
+  .location-heading {
+    font-size: 1.8rem;
+  }
+
+  .location-content {
+    flex-direction: column;
+  }
+
+  .location-map {
+    height: 220px;
+  }
+
+  .location-address {
+    font-size: 1.3rem;
+  }
+
+  .location-hours {
+    font-size: 1.1rem;
+  }
+}
+
+.about{
+    background-color: #2b0133;
+    color: white;
+    padding: 4rem 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.about h2{
+    font-size: 5.5rem;
+    font-weight: 400;
+    margin: 0 0 2.5rem;
+    color: white;
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 3rem 1.5rem;
+    font-size: 1.1rem;
+  }
+
+  .about h2 {
+    font-size: 2.5rem;
+  }
+}
+
