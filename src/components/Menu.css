@@ -1,0 +1,12 @@
+.menu {
+  padding: 3rem 4rem 5rem;
+  min-height: calc(100vh - 80px);
+  text-align: center;
+}
+
+.menu-heading {
+  color: purple;
+  font-weight: 400;
+  font-size: 2.5rem;
+  margin: 0 0 1.5rem;
+}
