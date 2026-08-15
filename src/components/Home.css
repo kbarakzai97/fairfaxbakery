@@ -27,14 +27,14 @@
 }
 
 .hero-content h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 400;
   margin: 0 0 1.5rem;
   line-height: 1.2;
 }
 
 .hero-content p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 0 0 2rem;
   color: #333;
 }
@@ -44,7 +44,7 @@
   color: #fff;
   border: none;
   padding: 1rem 2rem;
-  font-size: 2rem;
+  font-size: 1rem;
   border-radius: 15px;
   cursor: pointer;
 }
@@ -97,7 +97,7 @@
 
 .gallery-heading {
   font-family: 'Dancing Script', cursive;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
 }
 
 .gallery-grid {
@@ -263,7 +263,7 @@
 }
 
 .location-heading {
-  font-size: 2.75rem;
+  font-size: 2rem;
   font-weight: 400;
   margin: 0 0 2.5rem;
 }
@@ -292,7 +292,7 @@
 
 .location-address {
   color: purple;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.6;
   margin: 0 0 1.5rem;
 }
@@ -334,11 +334,11 @@
     color: white;
     padding: 4rem 3rem;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .about h2{
-    font-size: 5.5rem;
+    font-size: 3.5rem;
     font-weight: 400;
     margin: 0 0 2.5rem;
     color: white;
