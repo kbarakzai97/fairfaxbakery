@@ -52,3 +52,33 @@
 .order-btn:hover {
   background-color: #430f5c;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    min-height: auto;
+  }
+
+  .hero-image {
+    flex: none;
+    height: 40vh;
+  }
+
+  .hero-content {
+    flex: none;
+    padding: 2rem 1.5rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+
+  .order-btn {
+    font-size: 1.1rem;
+    padding: 0.75rem 1.5rem;
+  }
+}
